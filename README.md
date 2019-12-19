@@ -5,6 +5,7 @@ Esta es una demo de muestra a la que le faltan mapas y cámaras, en definitiva e
 Nos situamos en la carpeta raíz de la aplicación, abrimos una terminal en la carpeta y ejecutamos lo siguiente:
 
 $ sudo chmod +x gosoff.py
+
 $ ./gosoff.py
 
 La aplicación se iniciará.
