@@ -472,7 +472,7 @@ def zaragoza():
 #Ventana Inicial.
 
 root = Tk()
-root.title("··· OffShell System - La Guía del Usuari@···")
+root.title("··· Gosoff - OffShell System ···")
 root.geometry("1124x650+75+50")
 root.resizable(width=False, height=False)
 root.config(bg='black')
