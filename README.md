@@ -4,7 +4,7 @@ Esta es una demo de muestra a la que le faltan mapas y cámaras, en definitiva e
 # Trailer de la demo en Youtube.
 https://www.youtube.com/watch?v=DsoB_nt8t3o
 
-# Instalación
+# Instalación Sistemas Gnu/Linux
 Nos situamos en la carpeta raíz de la aplicación, abrimos una terminal en la carpeta y ejecutamos lo siguiente:
 
 $ sudo chmod +x gosoff.py
@@ -12,6 +12,13 @@ $ sudo chmod +x gosoff.py
 $ ./gosoff.py
 
 La aplicación se iniciará.
+
+# Instalación Sistemas Windows
+Lo primero es descargar e instalar Python 3 en nuestro Windows descargando el mismo desde su web oficial para luego seguir la instalación guiada.
+https://www.python.org/downloads/
+
+El siguiente paso es escribir en la cmd la dirección donde instalamos python  y luego la dirección donde se encuentra alojado el archivo gosoff.py
+
 # Webs donde seguirme como desarrollador independiente.
 
 http://www.shelldredd.tk/
