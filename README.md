@@ -1,6 +1,9 @@
 # Gosoff-Spain
 Gosoff es un programa que permite visualizar más de 1000 cámaras en tiempo real por todo el territorio español.
 Esta es una demo de muestra a la que le faltan mapas y cámaras, en definitiva es una aplicación en desarrollo.
+# Trailer de la demo en Youtube.
+https://www.youtube.com/watch?v=DsoB_nt8t3o
+
 # Instalación
 Nos situamos en la carpeta raíz de la aplicación, abrimos una terminal en la carpeta y ejecutamos lo siguiente:
 
