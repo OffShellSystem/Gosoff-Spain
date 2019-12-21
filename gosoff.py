@@ -17,7 +17,7 @@ call('sudo apt-get install python3', shell=True)
 call('sudo apt-get install python3-tk', shell=True)
 
 
-def españa():
+def españa(): # Mapa y objetos de la ventana España.
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -78,7 +78,7 @@ def españa():
 	pass
 
 
-def coruna():
+def coruna(): # Mapa y objetos de la localización definida.
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -124,7 +124,7 @@ def coruna():
 
 	pass
 
-def lugo():
+def lugo(): # Mapa y objetos de la localización definida.
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -149,7 +149,7 @@ def lugo():
 
 	pass
 
-def ourense():
+def ourense(): # Mapa y objetos de la localización definida.
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -200,7 +200,7 @@ def ourense():
 	pass
 
 
-def pontevedra():
+def pontevedra(): # Mapa y objetos de la localización definida.
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -251,7 +251,7 @@ def pontevedra():
 	pass
 
 
-def tarragona():
+def tarragona(): # Mapa y objetos de la localización definida.
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -272,7 +272,7 @@ def tarragona():
 	pass
 
 
-def madrid():
+def madrid(): # Mapa y objetos de la localización definida.
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -340,7 +340,7 @@ def madrid():
 	pass
 
 
-def andalucia():
+def andalucia(): # Mapa y objetos de la localización definida.
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -381,7 +381,7 @@ def andalucia():
 	pass
 
 
-def asturias():
+def asturias(): # Mapa y objetos de la localización definida.
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -399,7 +399,7 @@ def asturias():
 	Button(boton_camara2, image=camara_logo, command=lambda:[webbrowser.open_new_tab("https://www.insecam.org/en/view/279950/")], cursor="target", justify="center", bd=0, relief="flat", overrelief="raised", background="black", activebackground='black').pack()
 
 
-def barcelona():
+def barcelona(): # Mapa y objetos de la localización definida.
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -452,7 +452,7 @@ def barcelona():
 	Button(boton_camara9, image=camara_logo, command=lambda:[webbrowser.open_new_tab("https://www.insecam.org/en/view/832987/")], cursor="target", justify="center", bd=0, relief="flat", overrelief="raised", background="black", activebackground='black').pack()
 
 
-def zaragoza():
+def zaragoza(): # Mapa y objetos de la localización definida.
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -469,7 +469,7 @@ def zaragoza():
 
 
 
-#Ventana Inicial.
+# Ventana inicial del programa.
 
 root = Tk()
 root.title("··· Gosoff - OffShell System ···")
@@ -512,7 +512,7 @@ archMenu.add_command(label="Tarragona", command=lambda:[tarragona()], font=("URW
 
 
 
-#Imágenes.
+# Definiciones e importación de imágenes del programa.
 mundo_logo=PhotoImage(file="mundo_logo.gif")
 españa_logo=PhotoImage(file="españa.gif")
 mapa_coruna=PhotoImage(file="mapa_coruna.gif")
@@ -533,19 +533,19 @@ mapa_francia=PhotoImage(file="francia.gif")
 camara_logo=PhotoImage(file="camara_logo.gif")
 
 
-#Imagen de Fondo.
+#Imagen de fondo de la ventana inicial del programa.
 botonBienvenido=Frame(root, width=1024, height=1024)
 botonBienvenido.pack(fill=BOTH, expand=YES)
 botonBienvenido.place(x=0, y=0)
 Button(botonBienvenido, image=mundo_logo, cursor="spider", justify="center", bd=0, relief="raised", background="Black", activebackground='black', font=("URW Chancery L", 15)).pack()
 
 
-
+# Sello de la marca OffShell System en la parte inferior derecha de la ventana de inicio del programa.
 label1=Label(root, text="OffShell System", font=("URW Chancery L", 13), foreground="DarkRed", background="black").place(x=1015, y=618)
 label2=Label(root, text="Comunidad", font=("URW Chancery L", 12), foreground="DarkRed", background="black").place(x=1033, y=597)
 
 
 
-#salida del bucle y app.
+# Cierre del loop de ejecución del programa.
 
 root.mainloop()
