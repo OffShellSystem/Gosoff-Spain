@@ -19,6 +19,10 @@ https://www.python.org/downloads/
 
 El siguiente paso es escribir en la cmd la dirección donde instalamos python  y luego la dirección donde se encuentra alojado el archivo gosoff.py
 
+# Licencia
+Creative Commons by Alexandre Varela Sixto.
+Enlace para visualizar la licencia: https://offshellsystemconnection.blogspot.com/p/aplicaciones-de-escritorio-offshell.html
+
 # Webs donde seguirme como desarrollador independiente.
 
 http://www.shelldredd.tk/
