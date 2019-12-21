@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
+#Importación de libreríras necesarias para el programa.
+
 from tkinter import *
 from tkinter import ttk
 import tkinter as tk
@@ -16,6 +19,7 @@ import subprocess as sub
 call('sudo apt-get install python3', shell=True)
 call('sudo apt-get install python3-tk', shell=True)
 
+# Definiciones generales de objetos.
 
 def españa(): # Mapa y objetos de la ventana España.
 
