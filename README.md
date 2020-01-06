@@ -13,12 +13,6 @@ $ ./gosoff.py
 
 La aplicación se iniciará.
 
-# Instalación Sistemas Windows
-Lo primero es descargar e instalar Python 3 en nuestro Windows descargando el mismo desde su web oficial para luego seguir la instalación guiada.
-https://www.python.org/downloads/
-
-El siguiente paso es escribir en la cmd la dirección donde instalamos python  y luego la dirección donde se encuentra alojado el archivo gosoff.py
-
 # Licencia
 Creative Commons by Alexandre Varela Sixto.
 Enlace para visualizar la licencia: https://offshellsystemconnection.blogspot.com/p/aplicaciones-de-escritorio-offshell.html
