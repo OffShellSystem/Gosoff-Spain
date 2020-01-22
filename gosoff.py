@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
-#Importación de libreríras necesarias para el programa.
-
 from tkinter import *
 from tkinter import ttk
 import tkinter as tk
@@ -19,9 +16,8 @@ import subprocess as sub
 call('sudo apt-get install python3', shell=True)
 call('sudo apt-get install python3-tk', shell=True)
 
-# Definiciones generales de objetos.
 
-def españa(): # Mapa y objetos de la ventana España.
+def españa():
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -82,7 +78,7 @@ def españa(): # Mapa y objetos de la ventana España.
 	pass
 
 
-def coruna(): # Mapa y objetos de la localización definida.
+def coruna():
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -128,7 +124,7 @@ def coruna(): # Mapa y objetos de la localización definida.
 
 	pass
 
-def lugo(): # Mapa y objetos de la localización definida.
+def lugo():
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -153,7 +149,7 @@ def lugo(): # Mapa y objetos de la localización definida.
 
 	pass
 
-def ourense(): # Mapa y objetos de la localización definida.
+def ourense():
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -204,7 +200,7 @@ def ourense(): # Mapa y objetos de la localización definida.
 	pass
 
 
-def pontevedra(): # Mapa y objetos de la localización definida.
+def pontevedra():
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -255,7 +251,7 @@ def pontevedra(): # Mapa y objetos de la localización definida.
 	pass
 
 
-def tarragona(): # Mapa y objetos de la localización definida.
+def tarragona():
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -276,7 +272,7 @@ def tarragona(): # Mapa y objetos de la localización definida.
 	pass
 
 
-def madrid(): # Mapa y objetos de la localización definida.
+def madrid():
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -344,7 +340,7 @@ def madrid(): # Mapa y objetos de la localización definida.
 	pass
 
 
-def andalucia(): # Mapa y objetos de la localización definida.
+def andalucia():
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -374,18 +370,23 @@ def andalucia(): # Mapa y objetos de la localización definida.
 	boton_camara5=Frame(root)
 	boton_camara5.pack(fill=BOTH, expand=YES)
 	boton_camara5.place(x=1040, y=170)
-	Button(boton_camara5, image=camara_logo, command=lambda:[webbrowser.open_new_tab("https://www.skylinewebcams.com/es/webcam/espana/comunidad-valenciana/alicante/benidorm-playa-poniente.html")], cursor="heart", justify="center", bd=0, relief="flat", overrelief="raised", background="black", activebackground='black').pack()
+	Button(boton_camara5, image=camara_logo, command=lambda:[webbrowser.open_new_tab("https://www.skylinewebcams.com/it/webcam/espana/comunidad-valenciana/alicante/benidorm-playa-alicante.html")], cursor="heart", justify="center", bd=0, relief="flat", overrelief="raised", background="black", activebackground='black').pack()
 
 	boton_camara6=Frame(root)
 	boton_camara6.pack(fill=BOTH, expand=YES)
 	boton_camara6.place(x=1050, y=30)
 	Button(boton_camara6, image=camara_logo, command=lambda:[webbrowser.open_new_tab("http://212.170.100.189/view/view.shtml?id=12220&imagepath=%2Fmjpg%2Fvideo.mjpg%3Fcamera%3D1&size=1")], cursor="heart", justify="center", bd=0, relief="flat", overrelief="raised", background="black", activebackground='black').pack()
 
+	boton_camara7=Frame(root)
+	boton_camara7.pack(fill=BOTH, expand=YES)
+	boton_camara7.place(x=1000, y=190)
+	Button(boton_camara7, image=camara_logo, command=lambda:[webbrowser.open_new_tab("https://www.skylinewebcams.com/it/webcam/espana/comunidad-valenciana/alicante/alicante-playa-albir.html")], cursor="heart", justify="center", bd=0, relief="flat", overrelief="raised", background="black", activebackground='black').pack()
+
 
 	pass
 
 
-def asturias(): # Mapa y objetos de la localización definida.
+def asturias():
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -403,7 +404,7 @@ def asturias(): # Mapa y objetos de la localización definida.
 	Button(boton_camara2, image=camara_logo, command=lambda:[webbrowser.open_new_tab("https://www.insecam.org/en/view/279950/")], cursor="target", justify="center", bd=0, relief="flat", overrelief="raised", background="black", activebackground='black').pack()
 
 
-def barcelona(): # Mapa y objetos de la localización definida.
+def barcelona():
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -456,7 +457,7 @@ def barcelona(): # Mapa y objetos de la localización definida.
 	Button(boton_camara9, image=camara_logo, command=lambda:[webbrowser.open_new_tab("https://www.insecam.org/en/view/832987/")], cursor="target", justify="center", bd=0, relief="flat", overrelief="raised", background="black", activebackground='black').pack()
 
 
-def zaragoza(): # Mapa y objetos de la localización definida.
+def zaragoza():
 
 	botonBienvenido=Frame(root, width=1024, height=1024)
 	botonBienvenido.pack(fill=BOTH, expand=YES)
@@ -473,7 +474,7 @@ def zaragoza(): # Mapa y objetos de la localización definida.
 
 
 
-# Ventana inicial del programa.
+#Ventana Inicial.
 
 root = Tk()
 root.title("··· Gosoff - OffShell System ···")
@@ -502,7 +503,13 @@ archMenu.add_command(label="Barcelona", command=lambda:[barcelona()], font=("URW
 
 archMenu.add_command(label="Madrid", command=lambda:[madrid()], font=("URW Chancery L", 13), background='black', activebackground='darkgreen', foreground='orange', activeforeground='orange')
 
-archMenu.add_command(label="Galicia", command=lambda:[galicia()], font=("URW Chancery L", 13), background='black', activebackground='darkgreen', foreground='orange', activeforeground='orange')
+archMenu.add_command(label="A Coruña", command=lambda:[coruna()], font=("URW Chancery L", 13), background='black', activebackground='darkgreen', foreground='orange', activeforeground='orange')
+
+archMenu.add_command(label="Pontevedra", command=lambda:[pontevedra()], font=("URW Chancery L", 13), background='black', activebackground='darkgreen', foreground='orange', activeforeground='orange')
+
+archMenu.add_command(label="Ourense", command=lambda:[ourense()], font=("URW Chancery L", 13), background='black', activebackground='darkgreen', foreground='orange', activeforeground='orange')
+
+archMenu.add_command(label="Lugo", command=lambda:[lugo()], font=("URW Chancery L", 13), background='black', activebackground='darkgreen', foreground='orange', activeforeground='orange')
 
 archMenu.add_command(label="Asturias", command=lambda:[asturias()], font=("URW Chancery L", 13), background='black', activebackground='darkgreen', foreground='orange', activeforeground='orange')
 
@@ -516,7 +523,7 @@ archMenu.add_command(label="Tarragona", command=lambda:[tarragona()], font=("URW
 
 
 
-# Definiciones e importación de imágenes del programa.
+#Imágenes.
 mundo_logo=PhotoImage(file="mundo_logo.gif")
 españa_logo=PhotoImage(file="españa.gif")
 mapa_coruna=PhotoImage(file="mapa_coruna.gif")
@@ -537,19 +544,19 @@ mapa_francia=PhotoImage(file="francia.gif")
 camara_logo=PhotoImage(file="camara_logo.gif")
 
 
-#Imagen de fondo de la ventana inicial del programa.
+#Imagen de Fondo.
 botonBienvenido=Frame(root, width=1024, height=1024)
 botonBienvenido.pack(fill=BOTH, expand=YES)
 botonBienvenido.place(x=0, y=0)
 Button(botonBienvenido, image=mundo_logo, cursor="spider", justify="center", bd=0, relief="raised", background="Black", activebackground='black', font=("URW Chancery L", 15)).pack()
 
 
-# Sello de la marca OffShell System en la parte inferior derecha de la ventana de inicio del programa.
+
 label1=Label(root, text="OffShell System", font=("URW Chancery L", 13), foreground="DarkRed", background="black").place(x=1015, y=618)
 label2=Label(root, text="Comunidad", font=("URW Chancery L", 12), foreground="DarkRed", background="black").place(x=1033, y=597)
 
 
 
-# Cierre del loop de ejecución del programa.
+#salida del bucle y app.
 
 root.mainloop()
