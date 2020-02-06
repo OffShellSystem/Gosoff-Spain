@@ -17,8 +17,7 @@ $ ./gosoff.py
 La aplicación se iniciará.
 
 # Licencia
-Creative Commons by Alexandre Varela Sixto.
-Enlace para visualizar la licencia: https://offshellsystemconnection.blogspot.com/p/aplicaciones-de-escritorio-offshell.html
+GPL v.3 by Alexandre Varela Sixto.
 
 # Webs donde seguirme como desarrollador independiente.
 
