@@ -482,6 +482,7 @@ root.geometry("1124x650+75+50")
 root.resizable(width=False, height=False)
 root.config(bg='black')
 
+root.tk.call('wm', 'iconphoto', root._w, tk.PhotoImage(file='primate.gif'))
 
 #Barra MenuBar.
 
