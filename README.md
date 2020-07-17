@@ -26,7 +26,4 @@ http://www.shelldredd.tk/
 https://www.offshellsystem.tk/p/offshell-system.html
 # Grupo DIscord para nuestra comunidad.
 ![alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fasgardgaming.se%2Fwp-content%2Fuploads%2F2017%2F08%2Fderp-300x240.png&f=1&nofb=1) Entrar -> https://discord.gg/ShKjFfe
-# ¿Te gustan los programas de OffShell System?
- Puedes ayudarme a continuar desarrollando Software de código abierto o libre donando lo que consideres necesario desde este enlace   de PayPal. Gracias de antermano usuari@.
 
-https://www.paypal.com/donate/?token=inmEfI4UhJqAuHm1H2BVsdQiLkKdca-unYJxZd9eGO-fCu8B2i8HpuPOXk4rYs5ByusBrW&country.x=ES&locale.x=ES
